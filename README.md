@@ -133,14 +133,11 @@ exit chroot
 
 ```sh
 exit
-```
-
-```sh
 umount -a
 reboot
 ```
 
-# POST install
+## POST install
 
 swap file
 
@@ -176,4 +173,11 @@ add this content:
 
 ```sh
 pacman -S intel-ucode mesa
+```
+
+## [LARBS](https://larbs.xyz/)
+
+```sh
+curl -LO larbs.xyz/larbs.sh
+sh larbs.sh
 ```
