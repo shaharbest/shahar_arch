@@ -181,3 +181,7 @@ pacman -S intel-ucode mesa
 curl -LO larbs.xyz/larbs.sh
 sh larbs.sh
 ```
+
+## Fix Audio
+
+follow instruction at [sof](https://github.com/thesofproject/sof-bin/)
